@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5L3lC5jQMRoosSbPa6jlCBtKG4npCdNxELYQflgP7L0=",
+  "Source": "quinto_util.Api",
+  "BasePath": "_content/quinto_util.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

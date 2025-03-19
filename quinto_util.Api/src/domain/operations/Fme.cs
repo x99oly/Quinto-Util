@@ -32,6 +32,21 @@ namespace quinto_util.Api.src.domain.operations
             return new Money(x.Amount * y.Amount, x.Currency);
         }
 
+        public Money Multiply(Money x, float y)
+        {
+            return new Money(x.Amount * (decimal)y, x.Currency);
+        }
+
+         public Money Multiply(Money x, double y)
+        {
+            return new Money(x.Amount * (decimal)y, x.Currency);
+        }
+
+         public Money Multiply(Money x, int y)
+        {
+            return new Money(x.Amount * y, x.Currency);
+        }
+
         public Money Divide(Money x, Money y)
         {
             if (!x.HasSameCurrency(y))
@@ -40,9 +55,29 @@ namespace quinto_util.Api.src.domain.operations
             }
             if (y.Amount == 0)
             {
-                throw new DomainException("Não é possível dividir por zero.");
+                throw new DivideByZeroException("Não é possível dividir por zero.");
             }
             return new Money(x.Amount / y.Amount, x.Currency);
+        }
+
+        public Money Divide(Money x, double y)
+        {
+            if (y==0)return new Money(0,x.Currency);
+            return new Money(x.Amount / (decimal)y, x.Currency);
+        }
+
+        public Money Divide(Money x, float y)
+        {
+            if (y==0)return new Money(0,x.Currency);
+
+            return new Money(x.Amount / (decimal)y, x.Currency);
+        }
+
+        public Money Divide(Money x, int y)
+        {
+            if (y==0)return new Money(0,x.Currency);
+
+            return new Money(x.Amount / (decimal)y, x.Currency);
         }
 
         public decimal Percent(Money x, Money y)

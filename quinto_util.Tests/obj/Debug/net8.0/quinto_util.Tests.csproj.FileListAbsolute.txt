@@ -110,3 +110,4 @@ E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Tests\obj\Debug\net8.0\ref
 E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Tests\obj\Debug\net8.0\quinto_util.Tests.pdb
 E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Tests\obj\Debug\net8.0\quinto_util.Tests.genruntimeconfig.cache
 E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Tests\obj\Debug\net8.0\ref\quinto_util.Tests.dll
+E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Tests\obj\Debug\net8.0\quinto_util.Tests.sourcelink.json

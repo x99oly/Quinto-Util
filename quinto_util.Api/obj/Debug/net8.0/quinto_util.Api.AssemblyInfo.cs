@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("quinto_util.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddfab619e66a4983aa9c8b4948686b2d62d875ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("quinto_util.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("quinto_util.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

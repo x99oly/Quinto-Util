@@ -5,7 +5,7 @@ using quinto_util.Api.src.domain.enums;   // Para acessar CurrencyEnum
 using quinto_util.Api.src.domain.exceptions;
 using quinto_util.Api.src.domain.operations;
 
-namespace quinto_util.Tests.src.unit
+namespace quinto_util.Tests.src.unit.operations
 {
     public class FmeTests
     {
@@ -153,7 +153,7 @@ namespace quinto_util.Tests.src.unit
             var money2 = new Money(0, CurrencyEnum.BRL);
 
             // Act & Assert
-            Assert.Throws<DomainException>(() => _fme.Divide(money1, money2));
+            Assert.Throws<DivideByZeroException>(() => _fme.Divide(money1, money2));
         }
     }
 }

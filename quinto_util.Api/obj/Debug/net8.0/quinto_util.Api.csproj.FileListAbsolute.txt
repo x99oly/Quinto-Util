@@ -31,3 +31,4 @@ E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Api\obj\Debug\net8.0\refin
 E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Api\obj\Debug\net8.0\quinto_util.Api.pdb
 E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Api\obj\Debug\net8.0\quinto_util.Api.genruntimeconfig.cache
 E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Api\obj\Debug\net8.0\ref\quinto_util.Api.dll
+E:\LocalRepository\projetos\c-sharp\hp12c\quinto_util.Api\obj\Debug\net8.0\quinto_util.Api.sourcelink.json
